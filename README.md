@@ -1,27 +1,38 @@
-# Sudoku Game
+# Simple Sudoku
 
-This is a simple, single-page Sudoku game implemented using HTML, CSS, and JavaScript. The game features a classic 9x9 Sudoku grid, pre-loaded with an easy starting puzzle. Users can input numbers (1-9) into empty cells, and the application provides immediate visual feedback by highlighting any cell in red if its entered number violates standard Sudoku rules (i.e., conflicts with another number in the same row, column, or 3x3 block).
+A minimalistic web-based Sudoku game implemented in a single HTML page.
 
 ## Features
-
-*   **Classic 9x9 Grid:** A standard Sudoku grid visually divided into 3x3 subgrids.
-*   **Pre-defined Easy Board:** The game loads with a hardcoded, easy-level Sudoku puzzle.
-*   **Interactive Input:** Users can easily enter numbers (1-9) into empty cells.
-*   **Real-time Conflict Highlighting:** Cells containing numbers that violate Sudoku rules (duplicate in row, column, or block) are immediately highlighted in red.
-*   **Read-only Fixed Cells:** Initial numbers of the puzzle are fixed and cannot be changed by the user.
+- Displays a 9x9 Sudoku grid divided into 3x3 subgrids.
+- Loads a predefined 'Easy' starting board.
+- Users can input numbers (1-9) into empty cells.
+- Visual highlighting of conflicting entries in red.
 
 ## How to Run
+1. Save the provided files into a directory.
+2. Open `index.html` in any modern web browser.
+3. Interact with the Sudoku grid directly.
 
-This application is a single HTML file and does not require any special build tools or server setup. 
+### Note
+Conflicting entries are highlighted automatically in red. You cannot change the pre-filled cells.
 
-1.  **Save the file:** Save the `index.html` content provided as `index.html` in a folder.
-2.  **Open in Browser:** Navigate to the folder where you saved `index.html` and simply double-click the file. It will open in your default web browser.
-3.  **Play:** Start entering numbers (1-9) into the empty cells. Observe the red highlighting for any rule violations.
+---
 
-## Technologies Used
+## License
+MIT License
 
-*   **HTML5:** For the page structure and grid elements.
-*   **CSS3:** For styling the grid, cells, and conflict highlighting.
-*   **JavaScript (ES6+):** For game logic, board management, user input handling, and real-time validation.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal in the
+Software without restriction, including without limitation the rights to use, copy,
+modify, merge, publish, distribute, sublicense, and/or sell copies of the Software,
+also to permit persons to whom the Software is furnished to do so, subject to the
+following conditions:
 
-Enjoy playing Sudoku!
+The above copyright notice and this permission notice shall be included in all copies or
+substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE
+FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
